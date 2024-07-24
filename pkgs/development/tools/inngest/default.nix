@@ -4,7 +4,7 @@ let
   ver = "0.29.3";
   platformDetails = platform:
     {
-      "aarch64-darwn" = {
+      "aarch64-darwin" = {
         url =
           "https://github.com/inngest/inngest/releases/download/v${ver}/inngest_${ver}_darwin_amd64.tar.gz";
         sha256 =
